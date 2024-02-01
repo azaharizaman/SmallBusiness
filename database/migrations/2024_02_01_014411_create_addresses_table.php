@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
 
             $table->integer('business_partner_id')->unsigned()->nullable();
-            $table->string('name');
+            $table->string('title');
             $table->string('street');
             $table->string('building');
             $table->string('city');
